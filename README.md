@@ -11,8 +11,28 @@ If error will throw, we need to install
 ```bash
 sudo apt-get install python3-venv
 ```
+# Activate venv
 
-App Requirements:
+```bash
+source ./venv/bin/activate
+```
+# Deactivate venv
+
+```bash
+deactivate
+```
+# Django-cli
+
+```bash
+django-admin help
+```
+# Craete project
+
+```bash
+django-admin startproject rentsite .
+```
+
+# App Requirements:
 
 FRONTEND PAGES
 
