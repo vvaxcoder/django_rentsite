@@ -1,37 +1,6 @@
 # django_rentsite
 Rent site by Django with admin panel
 
-# create virtual env
-
-```bash
-python3 -m venv ./venv
-```
-If error will throw, we need to install
-
-```bash
-sudo apt-get install python3-venv
-```
-# Activate venv
-
-```bash
-source ./venv/bin/activate
-```
-# Deactivate venv
-
-```bash
-deactivate
-```
-# Django-cli
-
-```bash
-django-admin help
-```
-# Craete project
-
-```bash
-django-admin startproject rentsite .
-```
-
 # App Requirements:
 
 FRONTEND PAGES
@@ -87,3 +56,44 @@ LISTING PAGE FIELDS
 Possible Future Functionality
     • Google maps on listing page
     • Buyer testimonials
+
+# create virtual env
+
+```bash
+python3 -m venv ./venv
+```
+If error will throw, we need to install
+
+```bash
+sudo apt-get install python3-venv
+```
+# Activate venv
+
+```bash
+source ./venv/bin/activate
+```
+# Deactivate venv
+
+```bash
+deactivate
+```
+# Django-cli
+
+```bash
+django-admin help
+```
+# Craete project
+
+```bash
+django-admin startproject rentsite .
+```
+# Run django server
+
+```bash
+python manage.py runserver
+```
+# Create pages(for example)
+
+```bash
+python manage.py startapp pages
+```
